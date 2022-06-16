@@ -1,6 +1,8 @@
 import RPi.GPIO as GPIO
 from time import sleep
 
+print("Start RGB Controller")
+
 R_PIN = 11
 G_PIN = 13
 B_PIN = 15
